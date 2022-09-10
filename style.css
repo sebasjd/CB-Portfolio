@@ -131,7 +131,7 @@ body {
 .works--card .img {
     position: absolute;
     background-image: url(./imagenes/works.jpeg);
-    width: 22vw;
+    width: 22%;
     height: 25vh;
 }
 
