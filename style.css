@@ -72,10 +72,26 @@ body {
 }
 
 .about {
-    display: flex;
+    display: block;
 }
 
 .about h1 {
-    margin: 11vh 0 0 20vh;
+    margin: 11vh 0 4vh 10vw;
     font-size: 30px;
+}
+
+.about .p--container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: auto;
+}
+
+.about p {
+    margin: 5vh 0 0 5vw;
+    width: 30%;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
